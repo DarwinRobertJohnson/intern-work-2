@@ -1,0 +1,73 @@
+
+.nav-item-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.primary-flex-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.primary-flex-box p{
+    color: grey;
+}
+
+.primary-flex-box h2{
+    font-size: 24px;
+}
+.secondary-flex-box{
+
+}
+
+nav {
+    background-color: black;
+    color:lightgray;
+    padding:1% 0;
+}
+
+.store-content {
+    display: none;
+    background-color: black;
+    color:white;
+}
+
+.mac-content {
+    display: none;
+    background-color: black;
+    color:white;
+}
+
+.ipad-content{
+    display: none;
+    background-color: black;
+    color:white;
+}
+
+
+.iphone-content{
+    display: none;
+    background-color: black;
+    color:white;
+}
+
+
+.iwatch-content{
+    display: none;
+    background-color: black;
+    color:white;
+}
+
+
+.airpods-content{
+    display: none;
+    background-color: black;
+    color:white;
+}
+
+.nav-item-content:hover{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}

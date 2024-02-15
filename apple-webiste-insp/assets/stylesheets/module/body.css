@@ -1,0 +1,34 @@
+
+
+@keyframes slidein {
+    from{
+        opacity: 0;
+        bottom: -10px;
+    }
+    to{
+        opacity: 1;
+        bottom:0px;
+    }
+}
+
+.btn-body {
+    background-color: black;    
+    background-image: url(https://www.apple.com/in/iphone-15-pro/images/overview/welcome/hero_endframe__ov6ewwmbhiqq_large_2x.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.buy-button {
+    height:50px;
+    width:100px;
+    background-color: lightblue;
+    border-radius: 25px;
+    border:0;
+    position: relative;
+    color:white;
+
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
