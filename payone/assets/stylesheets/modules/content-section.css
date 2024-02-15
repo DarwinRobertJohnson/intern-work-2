@@ -1,0 +1,24 @@
+
+@keyframes text-slide {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.content-horizontal {
+    background: linear-gradient(to right,orange,pink,violet);
+    padding:2%;
+}
+
+h1 {
+    font-size: 64px;
+
+    animation-name: text-slide;
+    animation-duration: 4s;
+}
+
+
+

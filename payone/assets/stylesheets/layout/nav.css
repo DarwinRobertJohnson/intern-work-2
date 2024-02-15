@@ -1,0 +1,41 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+ul {
+    display: flex;
+    gap:2%;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
+
+.login-section {
+    display: flex;
+    gap:25px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+        border: 1px solid white;
+    }
+
+    ul {
+        flex-direction: column;
+        text-decoration: underline;
+    }
+
+    .login-section {
+        flex-direction: column;
+        
+    }
+}

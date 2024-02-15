@@ -1,0 +1,9 @@
+.footer-item-holder strong {
+    font-weight:600;
+}
+
+.footer-item {
+    border:1px solid grey;
+    border-radius: 5px;
+    padding: 2%;
+}

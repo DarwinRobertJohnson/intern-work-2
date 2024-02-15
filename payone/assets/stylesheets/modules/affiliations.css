@@ -1,0 +1,16 @@
+
+
+
+
+.a-icon {
+    border:1px solid grey;
+    padding:5% 10%;
+    border-radius: 10px;
+}
+
+.a-icon:hover {
+    background-color: grey;
+    color: white;
+
+
+}

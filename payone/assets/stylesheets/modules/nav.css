@@ -1,0 +1,24 @@
+
+nav {
+    background: linear-gradient(to right,orange,pink,violet);
+}
+
+h2 {
+    font-size:32px;
+}
+
+.list-options {
+    display: none;
+    position:absolute;
+    top:5%;
+    border: 1px solid white;
+    color:white;
+  }
+
+  nav>ul>li:hover {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 25px;
+}
